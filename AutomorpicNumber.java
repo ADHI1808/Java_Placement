@@ -20,12 +20,7 @@ class Main {
             //if 2 matches then 2/10=0 since while(a>0) loop will end 
             sq /= 10;
         }
-
-        if (isAutomorphic) {
-            System.out.println("Yes, Automorphic");
-        } else {
-            System.out.println("Not Automorphic");
-        }
+        System.out.println(isAutomorphic ? "Automorpic":"Not Automorpic");
 //OR
 //Scanner s = new Scanner(System.in);
 //int a, sq;
