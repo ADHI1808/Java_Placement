@@ -2,12 +2,18 @@ class Main {
     public static void main(String[] args) {
         int a=1234,temp=a,rem=0,sum=0,rev=0;
         while(temp>0){
-            rev=(rev*10)+(temp%10); //TO reverse(use if condition to check plindrom)
+            rev=(rev*10)+(temp%10); //TO reverse and palindrom
             rem=temp%10; //To sum
             temp=temp/10;
             sum=sum+rem;
         }
         System.out.println("sum of numbers:"+sum);
         System.out.println("Reverse of numbers:"+rev);
+        if(rev==a){
+            System.out.println("Palindrom");
+        }
+        else{
+            System.out.println("Not a Palindrom");
+        }
     }
 }
