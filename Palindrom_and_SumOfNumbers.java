@@ -20,5 +20,6 @@ class Main {
         else{
             System.out.println("Not a Palindrom");
         }
+        s.close();
     }
 }
