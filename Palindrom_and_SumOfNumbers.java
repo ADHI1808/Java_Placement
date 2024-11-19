@@ -1,6 +1,11 @@
+import java.util.Scanner;
 class Main {
     public static void main(String[] args) {
-        int a=1234,temp=a,rem=0,sum=0,rev=0;
+        Scanner s=new Scanner(System.in);
+        int a,temp,rem=0,sum=0,rev=0;
+        System.out.println("Enter numbers");
+        a=s.nextInt();
+        temp=a;
         while(temp>0){
             rev=(rev*10)+(temp%10); //TO reverse and palindrom
             rem=temp%10; //To sum
