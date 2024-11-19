@@ -7,9 +7,7 @@ class Main {
         System.out.println("Enter Number");
         a = s.nextInt();
         sq = a * a;
-
         boolean isAutomorphic = true;
-
         while (a > 0) {
             if (a % 10 != sq % 10) {
                 isAutomorphic = false; // if 1st digit itself doesn't match then
@@ -28,7 +26,16 @@ class Main {
         } else {
             System.out.println("Not Automorphic");
         }
-
+//OR
+//Scanner s = new Scanner(System.in);
+//int a, sq;
+//String num,last;
+//System.out.println("Enter Number");
+//a = s.nextInt();
+//sq = a * a;
+//num=Integer.toString(a);
+//last=Integer.toString(sq);
+//System.out.println(last.endsWith(num)?"Automorpic":"Not Automorpic");
         s.close();
     }
 }
