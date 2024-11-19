@@ -19,7 +19,7 @@ public class ArmstrongNumber {
     public static boolean isArmstrong(int num) {
         int originalNumber = num;
         int sum = 0;
-        int numberOfDigits = String.valueOf(num).length(); //to conver int to string
+        int numberOfDigits =Integer.toString.length(); //to conver int to string
 
         while (num > 0) {
             int digit = num % 10;
