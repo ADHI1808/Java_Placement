@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class BubbleSort {
+public class Main {
     public static void main(String[] args) {
         // Input array
         int[] myArray = {64, 34, 25, 12, 22, 11, 90, 5};
@@ -9,6 +9,8 @@ public class BubbleSort {
 
         // Outer loop for passes
         for (int i = 0; i < n - 1; i++) {
+            // Flag to check if any swap occurred
+            boolean swapped = false;
             // Inner loop for comparing adjacent elements
             for (int j = 0; j < n - 1 - i; j++) {
                 if (myArray[j] > myArray[j + 1]) {
@@ -16,7 +18,12 @@ public class BubbleSort {
                     int temp = myArray[j];
                     myArray[j] = myArray[j + 1];
                     myArray[j + 1] = temp;
+                    swapped = true;
                 }
+            }
+            // If no elements were swapped, break out of the loop
+            if (!swapped) {
+                break;
             }
         }
 
