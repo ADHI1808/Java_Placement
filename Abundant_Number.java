@@ -20,5 +20,21 @@ class Main {
     }
 }
 
+🚀🌟 Excited to share that I’ve completed a 1.5-month remote internship as an Android App Developer at LinkB Pvt. Ltd.! 🌟🚀
+
+I had the amazing opportunity to work on the company’s projects and learn a ton of new skills! 🔥 Here's a sneak peek into what I worked on:
+
+📱 Kotlin
+🦋 Flutter
+🖥️ Frontend Development (XML)
+🤖 Machine Learning Integration
+
+I’d love to share more, but let’s just say I signed a "confidential" document 📜... so the details stay under wraps! 🤫 It was an awesome experience, though! 😄
+
+A huge thank you to my mentors and colleagues at LinkB Pvt. Ltd. for being so supportive during this journey! 🙏💡
+
+Proud to show off my Certificate of Completion (without giving away any secrets, of course!) 📜🎉
+
+#Internship #AndroidDevelopment #Kotlin #Flutter #MachineLearning #FrontendDevelopment
 
 
