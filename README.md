@@ -1,3 +1,6 @@
+arithmetic progression formula-- a+(n-1)*d
+sum of number till 1 digit-- 1+(-1)%9
+
 
 # Notes  
 ### String
