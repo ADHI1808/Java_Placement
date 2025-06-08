@@ -15,7 +15,7 @@ public class Solution {
         int temp = x;
         
         // Keep summing the digits until the result is a single digit
-        while (temp >= 0) {
+        while (temp > 0) {
             sum = 0;  // Reset sum for each new iteration
             while (temp > 0) {
                 int rem = temp % 10; // Get the last digit
