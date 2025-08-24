@@ -2,6 +2,21 @@ arithmetic progression formula-- a+(num-1)*d
 sum of number till 1 digit-- 1+(-1)%9
 
 
+# arraylist functions
+## add()	Add element
+## get()	Retrieve element
+## set()	Update element
+## remove()	Remove by index/value
+## size()	Count elements
+## contains()	Check existence
+## isEmpty()	Check if empty
+## clear()	Remove all
+## indexOf()	First occurrence index
+## lastIndexOf()	Last occurrence index
+## addAll()	Merge lists
+## toArray()	Convert to array
+
+
 # Notes  
 ### String
 
