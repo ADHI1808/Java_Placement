@@ -1,5 +1,7 @@
 arithmetic progression formula-- a+(num-1)*d
-sum of number till 1 digit-- 1+(-1)%9
+sum of number till 1 digit-- 1+(num-1)%9
+lcm(a,b)=a*b/gcd(a,b)
+
 
 
 # arraylist functions
